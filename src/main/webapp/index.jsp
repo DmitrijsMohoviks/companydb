@@ -6,7 +6,11 @@
 </head>
 <body>
 
-<a href="<c:url value="/select"/>">Execute SQL Statement</a>
+<form method="post" action="select">
+    <input type="text" name="fullName" value="">
+    <button type="submit" value="Select">Select</button>
+</form>
+
 
 </body>
 </html>
